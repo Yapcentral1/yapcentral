@@ -421,12 +421,14 @@ nav li:first-child{
 	background-repeat: no-repeat;
 	background-position: center;
     	background-attachment: fixed;
+	background-size: cover;
 }
 .back2 {
 	background-image: url("../img/back2.png");
 	background-repeat: no-repeat;
 	background-position: center;
     	background-attachment: fixed;
+	background-size: cover;
 }
 .back3 {
 	background-image: url("../img/back3.png");
