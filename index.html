@@ -1,0 +1,67 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon"> 
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body class="back1">
+  <nav>
+    <ul class="sidebar">
+      <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="html/History.html">History</a></li>
+      <li><a href="html/Icons.html">Icons</a></li>
+    </ul>
+    <ul>
+      <li><img src="img\icon.png" alt="icon"></a></li>
+      <li class="hideOnMobile"><a href="index.html">Home</a></li>
+      <li class="hideOnMobile"><a href="html/History.html">History</a></li>
+      <li class="hideOnMobile"><a href="html/Icons.html">Icons</a></li>
+      <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+    </ul>
+  </nav>
+  <script>
+    function showSidebar(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'flex'
+    }
+    function hideSidebar(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'none'
+    }
+ </script>
+	
+<header class="hero">
+	<div class="containerbox">	<img class="saticon" src="img/saticon.png" alt="saticon">
+	 <h1 class="Y">Yap Central</h1><br><br>
+     <p><b>Yap Central 6.0</b> is the start of your journey towards freedom. Join us today and change your life forever!</p><br><br>
+	 <a class="button" href="https://discord.gg/NPaQN3pCVx" target="_blank">Join</a><br><br>
+    </div>
+</header>
+<section>
+	<p class="midtext">Resources</p>
+</section>
+<section class="hero">
+    <div class="containerbox1">
+	 <h1 class="texth1">Debates</h1><br><br>
+     <p>Yap Central encourags freedom of expression allowing you to argue on the internet at your discretion.</p><br><br>
+    </div>
+   <div class="containerboxgold">
+	 <h1 class="texth">Inclusivity</h1><br><br>
+     <p><b>Regardless of gender religion, background or race all Yap Central Members are treated equally.</p>
+    </div>
+    <div class="containerbox1">
+	 <h1 class="texth1">Minecraft</h1><br><br>
+     <p>An active minecraft survival multiplayer server.</p><br><br>
+	<a class="button" href="https://add.aternos.org/yapcentral505" target="_blank">Join</a>
+    </div>
+</section>
+	<footer>©2024|Yap Central <a class="clicklink" href="https://discord.gg/NPaQN3pCVx" target="_blank">Official</a></footer>
+
+
+</body>
+</html>
