@@ -419,26 +419,20 @@ nav li:first-child{
 .back1 {
 	background-image: url("../img/back1.png");
 	background-repeat: no-repeat;
-	background-position: top;
-    background-attachment: fixed;
- 	background-position: center !important;
- 	background-size: cover;
-	min-height: 100vh;
+	background-position: center;
+    	background-attachment: fixed;
 }
 .back2 {
 	background-image: url("../img/back2.png");
 	background-repeat: no-repeat;
-	background-position: top;
-    background-attachment: fixed;
- 	background-position: center !important;
- 	background-size: cover;
-	min-height: 100vh;
+	background-position: center;
+    	background-attachment: fixed;
 }
 .back3 {
 	background-image: url("../img/back3.png");
 	background-size: cover;
 	background-repeat:repeat;
-	background-position: center;
+	background-position: top;
 	min-height: 100vh;
 }
 footer {
