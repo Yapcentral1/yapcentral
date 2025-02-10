@@ -38,6 +38,8 @@ nav{
 	background: linear-gradient(90deg, rgba(157,137,66,1) 0%, rgba(220,230,144,1) 53%, rgba(157,137,66,1) 100%);
 	box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
 	position: sticky;
+	top: 0;
+	z-index: 3;
 }
 nav ul{
   width: 100%;
